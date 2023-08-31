@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+body {
+    background-image: url(../images/fundo.jpg);
+    background-size: contain;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 73px;
+}
+
+main .duvidas {
+    width: 288px;
+}
+
+main .duvidas .titulo-duvidas {
+    font-size: 2rem;
+    font-weight: 900;
+    color: #FFF;
+    margin-bottom: 11px;
+    text-transform: uppercase;
+}
+
+main .duvidas .texto-duvidas {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #FFF;
+}
+
+main .formulario {
+    background-color: #FFF;
+}
+
+main .formulario .inputs {
+    padding: 21px 20px 0 21px;
+}
+
+main .formulario .inputs input {
+    width: 298px;
+    height: 35px;
+    padding: 9px 0 9px 10px;
+    
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+main .formulario .inputs textarea {
+    width: 298px;
+    height: 100px;
+    padding: 9px 0 0 10px;
+    border-radius: 5px;
+    resize: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+main .formulario .inputs .aviso-campo-obrigatorio {
+    font-size: 0.8rem;
+    color: #F52E2E;
+    font-weight: 400;
+    margin-bottom: 6px;
+}
+
+main .formulario .inputs .aviso-campo-obrigatorio.opacidade {
+    opacity: 0;
+}
+
+main .formulario .campo-obrigatorio {
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding-left: 15px;
+    margin-bottom: 11px;
+}
+
+main .formulario .btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 22px;
+}
+
+main .formulario .btn-enviar {
+    padding: 12px 128px;
+    background-color: #3CCC87;
+    font-size: 1.5rem;
+    color: #FFF;
+    font-weight: 700;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+main .formulario .btn-enviar:hover {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2), 4px 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.borda-preta {
+    border: 1px solid #000;
+}
+
+.borda-vermelha {
+    border: 1px solid #F52E2E;
+}
+
+.borda-verde {
+    border: 1px solid #00C22B;
+}

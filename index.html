@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quest JS Intermediário - Formulário</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+
+    <link rel="shortcut icon" href="./src/images/devquest_favicon.jpg" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <div class="duvidas">
+            <h1 class="titulo-duvidas">Ficou com dúvida?<br>Nos mande uma mensagem!</h1>
+            <p class="texto-duvidas">Caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+        </div>
+
+        <form action="index.html" method="get" class="formulario">
+            <div class="inputs">
+                <input type="text" name="nome-usuario" class="input borda-preta" id="nome-usuario" placeholder="Nome Completo *">
+                <p class="aviso-campo-obrigatorio opacidade">Campo Obrigatório</p>
+
+                <input type="text" name="email-usuario" class="input borda-preta" id="email-usuario" placeholder="E-mail *">
+                <p class="aviso-campo-obrigatorio opacidade">Campo Obrigatório</p>
+
+                <input type="tel" name="telefone-usuario" class="input borda-preta" id="telefone-usuario" placeholder="Telefone *">
+                <p class="aviso-campo-obrigatorio opacidade">Campo Obrigatório</p>
+
+                <textarea name="mensagem-duvida" class="input borda-preta" id="mensagem-duvida" cols="30" rows="10" placeholder="Mensagem *"></textarea>
+                <p class="aviso-campo-obrigatorio opacidade">Campo Obrigatório</p>
+            </div>
+
+            <p class="campo-obrigatorio">*Campos Obrigatórios</p>
+
+            <div class="btn">
+                <a href="#" class="btn-enviar" id="btn-enviar">Enviar</a>
+            </div>
+        </form>
+    </main>
+
+    <script src="./src/js/formulario.js"></script>
+</body>
+</html>

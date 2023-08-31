@@ -1,0 +1,24 @@
+@media (max-width: 720px) {
+    main {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 370px) {
+    main .formulario {
+        width: 300px;
+    }
+
+    main .formulario .inputs input {
+        width: 260px;
+    }
+
+    main .formulario .inputs textarea {
+        width: 260px;
+    }
+
+    main .formulario .btn-enviar {
+        padding: 12px 108px;
+    }
+    
+}
