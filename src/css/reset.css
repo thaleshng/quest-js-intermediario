@@ -9,6 +9,7 @@ html {
     text-decoration: none;
     color: black;
     box-sizing: border-box;
+    border: none;
 }
 
 input::placeholder {
